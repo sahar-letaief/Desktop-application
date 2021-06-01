@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Reunion</class>
+ <widget class="QDialog" name="Reunion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>785</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Reunion</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow,QWidget,QMessageBox{
+background: qlineargradient(spread:pad, x1:0.472, y1:0, x2:0.502, y2:1, stop:0 rgba(0, 53, 84, 255), stop:1 rgba(0, 70, 111, 255));
+font-family:&quot;Quicksand SemiBold&quot;;
+}
+
+
+QListWidget{
+background:transparent;
+}
+
+QFrame{
+background:transparent;
+}
+
+
+QLabel,QGroupBox{
+color: white;
+background:transparent;
+}
+QComboBox{
+background:rgb(0, 48, 75);
+color:white;
+height:32px;
+border-radius:5px;
+}
+
+QLineEdit,QDateEdit,QDateTimeEdit{
+background:rgba(0, 33, 52, 100);
+color:white;
+height:32px;
+border-radius:8px;
+}
+
+QPushButton{
+width:131px;
+height:32px;
+background:rgba(0, 33, 52, 100);
+color:white;
+border-radius:10px;
+}
+
+QPushButton:hover{
+background: #cae9ff;
+color:black;
+}
+
+
+Line{
+backfround:white;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <family>Quicksand SemiBold</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>CHAT</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>Quicksand SemiBold</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Message</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="message_2"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="send_2">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>Send</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>Clear chat</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
